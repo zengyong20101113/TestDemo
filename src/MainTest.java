@@ -29,19 +29,15 @@ public class MainTest {
 	public static void main(String[] args) {
 		// URLTest();
 		paresXML();
-		System.out.println("---main----");
 	}
 
 	private static void paresXML() {
-		System.out.println("---paresXML----");
 		SAXReader reader = new SAXReader();
 		FileInputStream input = null;
 		InputStreamReader inputRead = null;
 		Document document = null;
 		Map<String, Element> elementMap = new HashMap<String, Element>();
 		try {
-			
-			System.out.println("-------");
 			input = new FileInputStream("D:/workspace/TestDemo/src/AndroidManifest.xml");
 			inputRead = new InputStreamReader(input, "UTF-8");
 			document = reader.read(inputRead);
