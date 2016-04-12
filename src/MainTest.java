@@ -40,7 +40,7 @@ public class MainTest {
 		try {
 			
 			
-			
+			System.out.println("-------");
 			System.out.println("-------");
 			input = new FileInputStream("D:/workspace/TestDemo/src/AndroidManifest.xml");
 			inputRead = new InputStreamReader(input, "UTF-8");
