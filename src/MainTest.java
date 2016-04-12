@@ -38,6 +38,10 @@ public class MainTest {
 		Document document = null;
 		Map<String, Element> elementMap = new HashMap<String, Element>();
 		try {
+			
+			
+			
+			System.out.println("-------");
 			input = new FileInputStream("D:/workspace/TestDemo/src/AndroidManifest.xml");
 			inputRead = new InputStreamReader(input, "UTF-8");
 			document = reader.read(inputRead);
